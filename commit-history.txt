@@ -13,3 +13,8 @@ Message: Fix form validation
 Date: 2024-11-01 15:49:46
 Timestamp: 1770068102273
 
+Commit #4
+Message: Add my shop page
+Date: 2024-11-01 19:52:26
+Timestamp: 1770068102373
+
