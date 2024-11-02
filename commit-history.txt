@@ -63,3 +63,8 @@ Message: Add category selector
 Date: 2024-11-02 13:23:58
 Timestamp: 1770068103313
 
+Commit #14
+Message: Add initial project setup
+Date: 2024-11-02 09:03:11
+Timestamp: 1770068103427
+
