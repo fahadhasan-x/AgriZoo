@@ -68,3 +68,8 @@ Message: Add initial project setup
 Date: 2024-11-02 09:03:11
 Timestamp: 1770068103427
 
+Commit #15
+Message: Create zoo shop page
+Date: 2024-11-02 22:03:56
+Timestamp: 1770068103544
+
