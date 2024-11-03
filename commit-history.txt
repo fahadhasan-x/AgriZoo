@@ -98,3 +98,8 @@ Message: Fix image handling
 Date: 2024-11-03 21:49:59
 Timestamp: 1770068104165
 
+Commit #21
+Message: Create user model and controller
+Date: 2024-11-03 11:20:02
+Timestamp: 1770068104287
+
