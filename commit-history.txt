@@ -133,3 +133,8 @@ Message: Improve user profile
 Date: 2024-11-04 09:05:39
 Timestamp: 1770068104996
 
+Commit #28
+Message: Add logger configuration
+Date: 2024-11-04 14:12:10
+Timestamp: 1770068105117
+
