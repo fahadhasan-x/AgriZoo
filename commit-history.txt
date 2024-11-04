@@ -138,3 +138,8 @@ Message: Add logger configuration
 Date: 2024-11-04 14:12:10
 Timestamp: 1770068105117
 
+Commit #29
+Message: Fix database relations
+Date: 2024-11-04 12:59:35
+Timestamp: 1770068105234
+
