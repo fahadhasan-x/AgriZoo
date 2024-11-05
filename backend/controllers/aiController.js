@@ -49,4 +49,4 @@ exports.analyzePost = async (req, res) => {
     console.error('AI analysis error:', error);
     res.status(500).json({ error: 'Failed to analyze post' });
   }
-}; 
+};
