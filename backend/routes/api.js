@@ -39,4 +39,4 @@ router.get('/products/category/:category', productController.getProductsByCatego
 // Search route
 router.get('/search', searchController.search);
 
-module.exports = router; 
+module.exports = router;
