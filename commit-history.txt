@@ -168,3 +168,8 @@ Message: Create user model and controller
 Date: 2024-11-06 10:14:20
 Timestamp: 1770068105818
 
+Commit #35
+Message: Update models
+Date: 2024-11-06 17:03:16
+Timestamp: 1770068105936
+
