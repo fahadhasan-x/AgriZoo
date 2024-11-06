@@ -62,4 +62,4 @@ module.exports = {
     Comment,
     Like,
     Product
-}; 
+};
