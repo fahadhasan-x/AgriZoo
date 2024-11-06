@@ -173,3 +173,8 @@ Message: Update models
 Date: 2024-11-06 17:03:16
 Timestamp: 1770068105936
 
+Commit #36
+Message: Improve filtering
+Date: 2024-11-06 18:42:56
+Timestamp: 1770068106056
+
