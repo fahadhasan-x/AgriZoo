@@ -8,4 +8,4 @@ router.get('/', categoryController.getAllCategories);
 // Get products by category
 router.get('/:slug/products', categoryController.getProductsByCategory);
 
-module.exports = router; 
+module.exports = router;
