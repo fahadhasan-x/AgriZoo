@@ -178,3 +178,8 @@ Message: Improve filtering
 Date: 2024-11-06 18:42:56
 Timestamp: 1770068106056
 
+Commit #37
+Message: Fix responsive design
+Date: 2024-11-07 13:09:29
+Timestamp: 1770068106179
+
