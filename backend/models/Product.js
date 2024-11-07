@@ -49,4 +49,4 @@ Product.belongsTo(Category, {
   as: 'category'
 });
 
-module.exports = Product; 
+module.exports = Product;
