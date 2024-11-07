@@ -360,4 +360,4 @@ exports.getAllPosts = async (req, res) => {
     console.error('Error in getAllPosts:', error);
     res.status(500).json({ error: error.message });
   }
-}; 
+};
