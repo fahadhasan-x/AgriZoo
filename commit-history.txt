@@ -208,3 +208,8 @@ Message: Create user model and controller
 Date: 2024-11-07 15:34:47
 Timestamp: 1770068106799
 
+Commit #43
+Message: Add category selector
+Date: 2024-11-07 18:44:34
+Timestamp: 1770068106924
+
