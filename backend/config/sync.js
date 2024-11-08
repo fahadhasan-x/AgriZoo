@@ -10,4 +10,4 @@ const syncDatabase = async () => {
   }
 };
 
-module.exports = syncDatabase; 
+module.exports = syncDatabase;
