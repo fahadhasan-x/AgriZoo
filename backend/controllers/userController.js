@@ -235,4 +235,4 @@ exports.getUserProducts = async (req, res) => {
         console.error('Error getting user products:', error);
         res.status(500).json({ error: error.message });
     }
-}; 
+};
