@@ -1,0 +1,17 @@
+agrizoo/
+├── frontend/                 # React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/       # Reusable components
+│       ├── pages/           # Main pages
+│       ├── services/        # API services
+│       ├── context/         # React context
+│       └── utils/           # Helper functions
+│
+├── backend/                  # Node.js backend
+│   ├── config/              # Configuration files
+│   ├── controllers/         # MVC Controllers
+│   ├── models/              # Database models
+│   ├── routes/              # API routes
+│   ├── middlewares/         # Custom middlewares
+│   └── utils/               # Helper functions 

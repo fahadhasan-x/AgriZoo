@@ -4,6 +4,7 @@ const authController = require('../controllers/authController');
 const postController = require('../controllers/postController');
 const userController = require('../controllers/userController');
 const productController = require('../controllers/productController');
+const searchController = require('../controllers/searchController');
 const auth = require('../middleware/auth');
 const upload = require('../middleware/upload');
 
@@ -34,5 +35,8 @@ router.post('/products', auth, upload.single('image'), productController.createP
 router.get('/products', productController.getAllProducts);
 router.get('/users/:userId/products', productController.getUserProducts);
 router.get('/products/category/:category', productController.getProductsByCategory);
+
+// Search route
+router.get('/search', searchController.search);
 
 module.exports = router; 
