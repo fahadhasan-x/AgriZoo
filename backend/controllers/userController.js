@@ -4,6 +4,7 @@ const Comment = require('../models/Comment');
 const Like = require('../models/Like');
 const path = require('path');
 const fs = require('fs');
+const Product = require('../models/Product');
 
 exports.getProfile = async (req, res) => {
   try {
@@ -108,21 +109,19 @@ exports.updateProfile = async (req, res) => {
 
 exports.getUserPosts = async (req, res) => {
     try {
-        // Build where clause based on visibility and user
-        let whereClause = {
-            user_id: req.params.id // Get posts for specific user
-        };
+        const requestedUserId = parseInt(req.params.id);
+        const currentUserId = req.user?.id;
 
-        // If viewing someone else's profile, only show public posts
-        // If viewing own profile, show all posts (public + private)
-        if (req.user?.id !== parseInt(req.params.id)) {
-            whereClause.visibility = 'public';
-        }
-
-        console.log('Getting posts with where clause:', whereClause);
+        console.log('Getting posts:', {
+            requestedUserId,
+            currentUserId,
+            isOwnProfile: requestedUserId === currentUserId
+        });
 
         const posts = await Post.findAll({
-            where: whereClause,
+            where: { 
+                user_id: requestedUserId 
+            },
             include: [
                 {
                     model: User,
@@ -143,20 +142,22 @@ exports.getUserPosts = async (req, res) => {
                 {
                     model: User,
                     as: 'likers',
-                    attributes: ['id'],
-                    through: { 
-                        model: Like,
-                        attributes: ['created_at']
-                    }
+                    attributes: ['id']
                 }
             ],
             order: [['created_at', 'DESC']]
         });
 
+        console.log('Found posts:', posts.map(p => ({
+            id: p.id,
+            visibility: p.visibility,
+            content: p.content.substring(0, 20)
+        })));
+
         const postsWithLikeStatus = posts.map(post => {
             const plainPost = post.get({ plain: true });
-            plainPost.isLiked = req.user ? 
-                plainPost.likers.some(liker => liker.id === req.user.id) : 
+            plainPost.isLiked = currentUserId ? 
+                plainPost.likers.some(liker => liker.id === currentUserId) : 
                 false;
             return plainPost;
         });
@@ -212,5 +213,26 @@ exports.updateProfilePicture = async (req, res) => {
     } catch (error) {
         console.error('Error updating profile picture:', error);
         res.status(500).json({ error: 'Failed to update profile picture' });
+    }
+};
+
+exports.getUserProducts = async (req, res) => {
+    try {
+        console.log('Getting products for user:', req.params.id);
+        
+        const products = await Product.findAll({
+            where: { user_id: req.params.id },
+            include: [{
+                model: User,
+                as: 'user',
+                attributes: ['id', 'full_name']
+            }]
+        });
+        
+        console.log('Found products:', products);
+        res.json(products);
+    } catch (error) {
+        console.error('Error getting user products:', error);
+        res.status(500).json({ error: error.message });
     }
 }; 
