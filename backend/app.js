@@ -6,6 +6,7 @@ const fs = require('fs');
 
 const sequelize = require('./config/database');
 require('./models/index');
+const categoryRoutes = require('./routes/categoryRoutes');
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use('/uploads', express.static(uploadsDir));
 
 // API routes
 app.use('/api', require('./routes/api'));
+app.use('/api/categories', categoryRoutes);
 
 // Error handling
 app.use((err, req, res, next) => {
