@@ -243,3 +243,8 @@ Message: Add database schema
 Date: 2024-11-10 20:23:26
 Timestamp: 1770068107623
 
+Commit #50
+Message: Add email verification
+Date: 2024-11-10 17:32:22
+Timestamp: 1770068107747
+
