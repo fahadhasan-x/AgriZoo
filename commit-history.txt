@@ -238,3 +238,8 @@ Message: Implement navbar
 Date: 2024-11-10 21:02:27
 Timestamp: 1770068107512
 
+Commit #49
+Message: Add database schema
+Date: 2024-11-10 20:23:26
+Timestamp: 1770068107623
+
