@@ -223,3 +223,8 @@ Message: Update search feature
 Date: 2024-11-07 12:38:51
 Timestamp: 1770068107161
 
+Commit #46
+Message: Configure mailer
+Date: 2024-11-10 16:31:48
+Timestamp: 1770068107279
+
