@@ -70,6 +70,8 @@ exports.createPost = async (req, res) => {
         }
 
         const plainPost = postWithData.get({ plain: true });
+        plainPost.created_at = postWithData.created_at;
+        plainPost.updated_at = postWithData.updated_at;
         plainPost.isLiked = false;  // New post, so not liked yet
         plainPost.comments = [];    // New post, so no comments yet
         plainPost.likers = [];      // New post, so no likes yet
@@ -84,19 +86,24 @@ exports.createPost = async (req, res) => {
 
 exports.getFeed = async (req, res) => {
     try {
-        // Build where clause based on visibility and user
-        let whereClause = {
-            [Op.or]: [
-                { visibility: 'public' } // Always show public posts
-            ]
-        };
-
-        // If user is logged in, also show their private posts
+        let whereClause = {};
+        
         if (req.user) {
-            whereClause[Op.or].push({
-                visibility: 'private',
-                user_id: req.user.id
-            });
+            // If user is logged in, show:
+            // 1. All public posts
+            // 2. Their own private posts
+            whereClause = {
+                [Op.or]: [
+                    { visibility: 'public' },
+                    {
+                        visibility: 'private',
+                        user_id: req.user.id
+                    }
+                ]
+            };
+        } else {
+            // If no user is logged in, show only public posts
+            whereClause = { visibility: 'public' };
         }
 
         const posts = await Post.findAll({
@@ -128,7 +135,6 @@ exports.getFeed = async (req, res) => {
             order: [['created_at', 'DESC']]
         });
 
-        // Add isLiked field for current user
         const postsWithLikeStatus = posts.map(post => {
             const plainPost = post.get({ plain: true });
             plainPost.isLiked = req.user ? 
@@ -295,7 +301,8 @@ exports.updatePost = async (req, res) => {
         }
 
         await post.update({
-            content: req.body.content
+            content: req.body.content,
+            updated_at: new Date()
         });
 
         res.json(post);
@@ -303,4 +310,54 @@ exports.updatePost = async (req, res) => {
         console.error('Error updating post:', error);
         res.status(400).json({ error: error.message });
     }
+};
+
+exports.getAllPosts = async (req, res) => {
+  try {
+    const posts = await Post.findAll({
+      include: [
+        {
+          model: User,
+          as: 'user',
+          attributes: ['id', 'full_name', 'profile_picture']
+        },
+        {
+          model: Comment,
+          as: 'comments',
+          include: [{
+            model: User,
+            as: 'user',
+            attributes: ['id', 'full_name', 'profile_picture']
+          }],
+          order: [['created_at', 'DESC']]
+        },
+        {
+          model: User,
+          as: 'likers',
+          attributes: ['id'],
+          through: { attributes: [] }
+        }
+      ],
+      order: [['created_at', 'DESC']]
+    });
+
+    const formattedPosts = posts.map(post => {
+      const postJson = post.get({ plain: true });
+      return {
+        ...postJson,
+        created_at: post.created_at,
+        updated_at: post.updated_at,
+        comments: postJson.comments?.map(comment => ({
+          ...comment,
+          created_at: comment.created_at,
+          updated_at: comment.updated_at
+        }))
+      };
+    });
+
+    res.json(formattedPosts);
+  } catch (error) {
+    console.error('Error in getAllPosts:', error);
+    res.status(500).json({ error: error.message });
+  }
 }; 
