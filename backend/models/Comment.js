@@ -22,7 +22,16 @@ const Comment = sequelize.define('Comment', {
 }, {
   timestamps: true,
   underscored: true,
-  tableName: 'comments'
+  tableName: 'comments',
+  hooks: {
+    beforeCreate: (comment) => {
+      comment.created_at = new Date();
+      comment.updated_at = new Date();
+    },
+    beforeUpdate: (comment) => {
+      comment.updated_at = new Date();
+    }
+  }
 });
 
 module.exports = Comment; 
