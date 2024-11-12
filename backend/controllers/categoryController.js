@@ -137,4 +137,4 @@ exports.getProductsByCategory = async (req, res) => {
     console.error('Error in getProductsByCategory:', error);
     res.status(500).json({ error: error.message });
   }
-}; 
+};
