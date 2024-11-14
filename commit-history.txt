@@ -268,3 +268,8 @@ Message: Update styling
 Date: 2024-11-14 11:03:21
 Timestamp: 1770068108229
 
+Commit #55
+Message: Create home page
+Date: 2024-11-14 21:17:02
+Timestamp: 1770068108348
+
