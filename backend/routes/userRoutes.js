@@ -11,4 +11,4 @@ router.put('/profile-picture', auth, upload.single('profile_picture'), userContr
 router.get('/:id/posts', userController.getUserPosts);
 router.get('/:id', userController.getUserProfile);
 
-module.exports = router; 
+module.exports = router;
