@@ -263,3 +263,8 @@ Message: Implement user routes
 Date: 2024-11-10 17:01:22
 Timestamp: 1770068108110
 
+Commit #54
+Message: Update styling
+Date: 2024-11-14 11:03:21
+Timestamp: 1770068108229
+
