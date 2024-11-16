@@ -308,3 +308,8 @@ Message: Add forgot password feature
 Date: 2024-11-14 12:15:10
 Timestamp: 1770068109179
 
+Commit #63
+Message: Improve error messages
+Date: 2024-11-16 11:37:52
+Timestamp: 1770068109297
+
