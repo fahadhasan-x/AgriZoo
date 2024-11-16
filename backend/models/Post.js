@@ -29,7 +29,16 @@ const Post = sequelize.define('Post', {
 }, {
   timestamps: true,
   underscored: true,
-  tableName: 'posts'
+  tableName: 'posts',
+  hooks: {
+    beforeCreate: (post) => {
+      post.created_at = new Date();
+      post.updated_at = new Date();
+    },
+    beforeUpdate: (post) => {
+      post.updated_at = new Date();
+    }
+  }
 });
 
 module.exports = Post; 
