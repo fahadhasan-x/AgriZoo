@@ -155,4 +155,4 @@ exports.resetPassword = async (req, res) => {
         console.error('Error in resetPassword:', error);
         res.status(500).json({ error: 'Failed to reset password' });
     }
-}; 
+};
