@@ -343,3 +343,8 @@ Message: Update models
 Date: 2024-11-16 22:38:47
 Timestamp: 1770068110014
 
+Commit #70
+Message: Configure mailer
+Date: 2024-11-18 12:59:09
+Timestamp: 1770068110144
+
