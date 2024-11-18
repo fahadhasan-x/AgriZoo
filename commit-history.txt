@@ -358,3 +358,8 @@ Message: Add post card component
 Date: 2024-11-18 10:50:24
 Timestamp: 1770068110372
 
+Commit #73
+Message: Add user profile page
+Date: 2024-11-18 16:08:12
+Timestamp: 1770068110490
+
