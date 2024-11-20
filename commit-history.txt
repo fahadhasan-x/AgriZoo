@@ -403,3 +403,8 @@ Message: Add database schema
 Date: 2024-11-20 18:47:54
 Timestamp: 1770068111481
 
+Commit #82
+Message: Add category routes
+Date: 2024-11-20 14:42:25
+Timestamp: 1770068111602
+
