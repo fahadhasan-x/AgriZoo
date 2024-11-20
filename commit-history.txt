@@ -398,3 +398,8 @@ Message: Configure database connection
 Date: 2024-11-20 14:15:40
 Timestamp: 1770068111348
 
+Commit #81
+Message: Add database schema
+Date: 2024-11-20 18:47:54
+Timestamp: 1770068111481
+
