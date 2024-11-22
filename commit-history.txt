@@ -433,3 +433,8 @@ Message: Implement comment system
 Date: 2024-11-22 20:00:58
 Timestamp: 1770068112197
 
+Commit #88
+Message: Update API endpoints
+Date: 2024-11-22 16:20:03
+Timestamp: 1770068112310
+
