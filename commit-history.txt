@@ -468,3 +468,8 @@ Message: Create API routes
 Date: 2024-11-23 14:41:52
 Timestamp: 1770068113025
 
+Commit #95
+Message: Fix responsive design
+Date: 2024-11-23 21:25:39
+Timestamp: 1770068113145
+
