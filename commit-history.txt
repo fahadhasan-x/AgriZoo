@@ -478,3 +478,8 @@ Message: Add logger configuration
 Date: 2024-11-23 17:23:53
 Timestamp: 1770068113261
 
+Commit #97
+Message: Refactor components
+Date: 2024-11-23 13:58:11
+Timestamp: 1770068113372
+
