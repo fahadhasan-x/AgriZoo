@@ -473,3 +473,8 @@ Message: Fix responsive design
 Date: 2024-11-23 21:25:39
 Timestamp: 1770068113145
 
+Commit #96
+Message: Add logger configuration
+Date: 2024-11-23 17:23:53
+Timestamp: 1770068113261
+
