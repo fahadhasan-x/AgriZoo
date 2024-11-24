@@ -503,3 +503,8 @@ Message: Add initial project setup
 Date: 2024-11-24 16:17:10
 Timestamp: 1770068113840
 
+Commit #102
+Message: Add loading states
+Date: 2024-11-24 20:50:01
+Timestamp: 1770068113956
+
