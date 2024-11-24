@@ -508,3 +508,8 @@ Message: Add loading states
 Date: 2024-11-24 20:50:01
 Timestamp: 1770068113956
 
+Commit #103
+Message: Add forgot password feature
+Date: 2024-11-24 18:16:25
+Timestamp: 1770068114077
+
