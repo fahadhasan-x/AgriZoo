@@ -528,3 +528,8 @@ Message: Add category selector
 Date: 2024-11-25 15:26:03
 Timestamp: 1770068114427
 
+Commit #107
+Message: Create login page
+Date: 2024-11-25 13:33:10
+Timestamp: 1770068114540
+
