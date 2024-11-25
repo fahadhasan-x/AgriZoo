@@ -543,3 +543,8 @@ Message: Create API routes
 Date: 2024-11-25 14:35:51
 Timestamp: 1770068114769
 
+Commit #110
+Message: Update middleware
+Date: 2024-11-25 10:26:28
+Timestamp: 1770068114882
+
