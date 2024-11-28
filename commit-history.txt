@@ -613,3 +613,8 @@ Message: Add signup functionality
 Date: 2024-11-28 13:32:52
 Timestamp: 1770068116455
 
+Commit #124
+Message: Add multer configuration
+Date: 2024-11-28 15:33:39
+Timestamp: 1770068116579
+
