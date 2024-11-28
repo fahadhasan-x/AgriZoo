@@ -618,3 +618,8 @@ Message: Add multer configuration
 Date: 2024-11-28 15:33:39
 Timestamp: 1770068116579
 
+Commit #125
+Message: Improve security
+Date: 2024-11-28 13:28:46
+Timestamp: 1770068116705
+
