@@ -608,3 +608,8 @@ Message: Create shop functionality
 Date: 2024-11-27 18:20:10
 Timestamp: 1770068116330
 
+Commit #123
+Message: Add signup functionality
+Date: 2024-11-28 13:32:52
+Timestamp: 1770068116455
+
