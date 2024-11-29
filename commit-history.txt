@@ -638,3 +638,8 @@ Message: Enhance UI components
 Date: 2024-11-28 18:25:02
 Timestamp: 1770068117076
 
+Commit #129
+Message: Add axios configuration
+Date: 2024-11-29 19:58:36
+Timestamp: 1770068117202
+
