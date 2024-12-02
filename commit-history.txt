@@ -673,3 +673,8 @@ Message: Create auth service
 Date: 2024-11-29 18:43:28
 Timestamp: 1770068117934
 
+Commit #136
+Message: Fix responsive design
+Date: 2024-12-02 14:38:44
+Timestamp: 1770068118065
+
