@@ -693,3 +693,8 @@ Message: Add category routes
 Date: 2024-12-02 10:17:31
 Timestamp: 1770068118426
 
+Commit #140
+Message: Add error handling
+Date: 2024-12-02 15:01:56
+Timestamp: 1770068118539
+
