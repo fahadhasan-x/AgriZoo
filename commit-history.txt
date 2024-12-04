@@ -728,3 +728,8 @@ Message: Update configuration
 Date: 2024-12-04 20:02:38
 Timestamp: 1770068119264
 
+Commit #147
+Message: Create user model and controller
+Date: 2024-12-04 22:46:53
+Timestamp: 1770068119382
+
