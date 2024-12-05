@@ -768,3 +768,8 @@ Message: Add email verification
 Date: 2024-12-05 20:09:05
 Timestamp: 1770068120265
 
+Commit #155
+Message: Add middleware authentication
+Date: 2024-12-05 09:12:55
+Timestamp: 1770068120463
+
