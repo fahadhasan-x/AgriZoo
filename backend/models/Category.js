@@ -43,4 +43,4 @@ Category.hasMany(Category, {
   onDelete: 'CASCADE'
 });
 
-module.exports = Category; 
+module.exports = Category;
