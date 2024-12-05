@@ -753,3 +753,8 @@ Message: Implement user shop page
 Date: 2024-12-05 20:17:33
 Timestamp: 1770068119895
 
+Commit #152
+Message: Fix comment system
+Date: 2024-12-05 09:12:13
+Timestamp: 1770068120021
+
