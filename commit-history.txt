@@ -773,3 +773,8 @@ Message: Add middleware authentication
 Date: 2024-12-05 09:12:55
 Timestamp: 1770068120463
 
+Commit #156
+Message: Add logger configuration
+Date: 2024-12-05 16:03:04
+Timestamp: 1770068120576
+
