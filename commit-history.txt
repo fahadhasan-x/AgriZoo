@@ -803,3 +803,8 @@ Message: Create zoo shop page
 Date: 2024-12-06 19:25:01
 Timestamp: 1770068121166
 
+Commit #162
+Message: Fix responsive design
+Date: 2024-12-06 16:44:39
+Timestamp: 1770068121280
+
