@@ -788,3 +788,8 @@ Message: Add email verification
 Date: 2024-12-06 21:25:52
 Timestamp: 1770068120817
 
+Commit #159
+Message: Configure mailer
+Date: 2024-12-06 19:04:02
+Timestamp: 1770068120935
+
