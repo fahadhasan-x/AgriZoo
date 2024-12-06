@@ -793,3 +793,8 @@ Message: Configure mailer
 Date: 2024-12-06 19:04:02
 Timestamp: 1770068120935
 
+Commit #160
+Message: Fix image handling
+Date: 2024-12-06 17:01:11
+Timestamp: 1770068121049
+
