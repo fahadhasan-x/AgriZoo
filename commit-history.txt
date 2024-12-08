@@ -818,3 +818,8 @@ Message: Add data validation
 Date: 2024-12-08 13:52:58
 Timestamp: 1770068121514
 
+Commit #165
+Message: Fix responsive design
+Date: 2024-12-08 13:33:46
+Timestamp: 1770068121630
+
