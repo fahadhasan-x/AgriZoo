@@ -863,3 +863,8 @@ Message: Create auth service
 Date: 2024-12-13 16:31:18
 Timestamp: 1770068122566
 
+Commit #174
+Message: Fix database relations
+Date: 2024-12-13 10:53:09
+Timestamp: 1770068122680
+
