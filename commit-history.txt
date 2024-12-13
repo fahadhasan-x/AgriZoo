@@ -873,3 +873,8 @@ Message: Update documentation
 Date: 2024-12-13 20:30:09
 Timestamp: 1770068122796
 
+Commit #176
+Message: Fix API responses
+Date: 2024-12-13 20:47:12
+Timestamp: 1770068122914
+
