@@ -858,3 +858,8 @@ Message: Add post card component
 Date: 2024-12-08 15:34:59
 Timestamp: 1770068122453
 
+Commit #173
+Message: Create auth service
+Date: 2024-12-13 16:31:18
+Timestamp: 1770068122566
+
