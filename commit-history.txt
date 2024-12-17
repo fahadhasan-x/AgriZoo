@@ -943,3 +943,8 @@ Message: Add multer configuration
 Date: 2024-12-17 22:40:13
 Timestamp: 1770068124439
 
+Commit #190
+Message: Update product controller
+Date: 2024-12-17 16:03:13
+Timestamp: 1770068124560
+
