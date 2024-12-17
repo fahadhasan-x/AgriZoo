@@ -948,3 +948,8 @@ Message: Update product controller
 Date: 2024-12-17 16:03:13
 Timestamp: 1770068124560
 
+Commit #191
+Message: Fix form validation
+Date: 2024-12-17 13:28:23
+Timestamp: 1770068124671
+
