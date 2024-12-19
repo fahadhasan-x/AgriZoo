@@ -1053,3 +1053,8 @@ Message: Add loading states
 Date: 2024-12-19 12:12:12
 Timestamp: 1770068127033
 
+Commit #212
+Message: Add my shop page
+Date: 2024-12-19 16:39:00
+Timestamp: 1770068127152
+
