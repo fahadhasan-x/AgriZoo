@@ -1088,3 +1088,8 @@ Message: Add multer configuration
 Date: 2024-12-20 21:28:20
 Timestamp: 1770068127849
 
+Commit #219
+Message: Add category routes
+Date: 2024-12-20 21:26:46
+Timestamp: 1770068127966
+
