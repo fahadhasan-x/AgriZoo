@@ -1058,3 +1058,8 @@ Message: Add my shop page
 Date: 2024-12-19 16:39:00
 Timestamp: 1770068127152
 
+Commit #213
+Message: Implement comment system
+Date: 2024-12-20 14:32:43
+Timestamp: 1770068127266
+
