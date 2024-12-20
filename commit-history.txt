@@ -1078,3 +1078,8 @@ Message: Add signup functionality
 Date: 2024-12-20 22:52:46
 Timestamp: 1770068127622
 
+Commit #217
+Message: Fix image handling
+Date: 2024-12-20 14:51:35
+Timestamp: 1770068127733
+
