@@ -1073,3 +1073,8 @@ Message: Update styling
 Date: 2024-12-20 17:35:43
 Timestamp: 1770068127501
 
+Commit #216
+Message: Add signup functionality
+Date: 2024-12-20 22:52:46
+Timestamp: 1770068127622
+
