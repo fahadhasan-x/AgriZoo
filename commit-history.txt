@@ -1113,3 +1113,8 @@ Message: Add error handling
 Date: 2024-12-21 18:25:03
 Timestamp: 1770068128444
 
+Commit #224
+Message: Add logger configuration
+Date: 2024-12-21 10:57:03
+Timestamp: 1770068128560
+
