@@ -1123,3 +1123,8 @@ Message: Implement navbar
 Date: 2024-12-21 14:01:25
 Timestamp: 1770068128673
 
+Commit #226
+Message: Add success messages
+Date: 2024-12-21 20:25:02
+Timestamp: 1770068128784
+
