@@ -1118,3 +1118,8 @@ Message: Add logger configuration
 Date: 2024-12-21 10:57:03
 Timestamp: 1770068128560
 
+Commit #225
+Message: Implement navbar
+Date: 2024-12-21 14:01:25
+Timestamp: 1770068128673
+
