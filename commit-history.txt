@@ -1108,3 +1108,8 @@ Message: Create shop functionality
 Date: 2024-12-21 15:08:14
 Timestamp: 1770068128329
 
+Commit #223
+Message: Add error handling
+Date: 2024-12-21 18:25:03
+Timestamp: 1770068128444
+
