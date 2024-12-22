@@ -1168,3 +1168,8 @@ Message: Add validation
 Date: 2024-12-22 14:09:56
 Timestamp: 1770068129757
 
+Commit #235
+Message: Add category selector
+Date: 2024-12-22 22:10:03
+Timestamp: 1770068129873
+
