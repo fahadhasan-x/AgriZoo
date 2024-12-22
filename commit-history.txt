@@ -1183,3 +1183,8 @@ Message: Fix database relations
 Date: 2024-12-22 18:26:30
 Timestamp: 1770068130108
 
+Commit #238
+Message: Add my shop page
+Date: 2024-12-22 22:34:35
+Timestamp: 1770068130230
+
