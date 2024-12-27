@@ -1208,3 +1208,8 @@ Message: Update package dependencies
 Date: 2024-12-27 09:11:02
 Timestamp: 1770068130703
 
+Commit #243
+Message: Create user model and controller
+Date: 2024-12-27 18:55:54
+Timestamp: 1770068130819
+
