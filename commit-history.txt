@@ -1228,3 +1228,8 @@ Message: Add loading states
 Date: 2024-12-27 18:20:05
 Timestamp: 1770068131168
 
+Commit #247
+Message: Add image optimization
+Date: 2024-12-27 15:12:17
+Timestamp: 1770068131287
+
