@@ -1213,3 +1213,8 @@ Message: Create user model and controller
 Date: 2024-12-27 18:55:54
 Timestamp: 1770068130819
 
+Commit #244
+Message: Fix database relations
+Date: 2024-12-27 11:32:17
+Timestamp: 1770068130935
+
