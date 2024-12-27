@@ -1188,3 +1188,8 @@ Message: Add my shop page
 Date: 2024-12-22 22:34:35
 Timestamp: 1770068130230
 
+Commit #239
+Message: Fix image handling
+Date: 2024-12-27 20:21:35
+Timestamp: 1770068130350
+
