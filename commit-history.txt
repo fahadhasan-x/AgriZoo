@@ -1273,3 +1273,8 @@ Message: Add validation
 Date: 2024-12-28 16:57:48
 Timestamp: 1770068132212
 
+Commit #256
+Message: Update product controller
+Date: 2024-12-28 21:18:07
+Timestamp: 1770068132330
+
