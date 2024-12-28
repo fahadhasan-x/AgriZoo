@@ -1253,3 +1253,8 @@ Message: Fix API responses
 Date: 2024-12-28 20:31:06
 Timestamp: 1770068131749
 
+Commit #252
+Message: Add signup functionality
+Date: 2024-12-28 20:08:23
+Timestamp: 1770068131863
+
