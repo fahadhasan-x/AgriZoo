@@ -1263,3 +1263,8 @@ Message: Add post card component
 Date: 2024-12-28 13:19:42
 Timestamp: 1770068131979
 
+Commit #254
+Message: Add forgot password feature
+Date: 2024-12-28 15:07:18
+Timestamp: 1770068132093
+
