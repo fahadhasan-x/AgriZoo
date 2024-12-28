@@ -1248,3 +1248,8 @@ Message: Add logger configuration
 Date: 2024-12-28 09:16:04
 Timestamp: 1770068131635
 
+Commit #251
+Message: Fix API responses
+Date: 2024-12-28 20:31:06
+Timestamp: 1770068131749
+
