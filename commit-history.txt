@@ -1293,3 +1293,8 @@ Message: Create category management
 Date: 2024-12-29 18:59:34
 Timestamp: 1770068132678
 
+Commit #260
+Message: Improve code structure
+Date: 2024-12-29 17:02:23
+Timestamp: 1770068132792
+
