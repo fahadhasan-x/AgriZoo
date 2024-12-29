@@ -1283,3 +1283,8 @@ Message: Implement user shop page
 Date: 2024-12-29 18:12:28
 Timestamp: 1770068132444
 
+Commit #258
+Message: Update documentation
+Date: 2024-12-29 20:32:03
+Timestamp: 1770068132560
+
