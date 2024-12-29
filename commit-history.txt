@@ -1288,3 +1288,8 @@ Message: Update documentation
 Date: 2024-12-29 20:32:03
 Timestamp: 1770068132560
 
+Commit #259
+Message: Create category management
+Date: 2024-12-29 18:59:34
+Timestamp: 1770068132678
+
